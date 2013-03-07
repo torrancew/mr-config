@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/vim.git]
+checkout = vcsh clone ssh://git@github.com/torrancew/vim-config.git vim
+update   = vcsh run vim git pull
+push     = vcsh run vim git push
+status   = vcsh run vim git status
+
